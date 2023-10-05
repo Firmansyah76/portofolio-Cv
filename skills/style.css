@@ -1,0 +1,91 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set font family and background color for the entire page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style for the skills section */
+.skills {
+  background-color: #fff;
+  padding: 50px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.skills-top {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.skills-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill-item {
+  width: 48%; /* Set width for each skill item */
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skill-item h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.skill-item p {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Add media query for responsiveness on smaller screens */
+@media (max-width: 768px) {
+  .skills {
+    width: 90%;
+  }
+
+  .skill-item {
+    width: 100%;
+  }
+}
+
+/* Styling untuk Tombol Kembali ke Menu Home */
+.back-to-home {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-home a {
+  text-decoration: none;
+  background-color: crimson;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.back-to-home a:hover {
+  background-color: #ff6b6b; /* Warna latar belakang saat dihover */
+}
+/* Akhir Styling untuk Tombol Kembali ke Menu Home */
